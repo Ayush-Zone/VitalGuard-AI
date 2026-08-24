@@ -15,6 +15,4 @@ void loop() {
         sendUDP(data);
         Serial.println(data);
     }
-
-    delay(20);   // ~50 Hz
 }
